@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCNA 200-301 Learning Hub</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}
+header{background:linear-gradient(135deg,#0b3d91,#1677ff);color:#fff;padding:45px 20px}
+.wrap{max-width:1100px;margin:auto}h1{margin:0 0 10px;font-size:40px}header p{margin:0;opacity:.9;font-size:18px}
+nav{background:#fff;position:sticky;top:0;z-index:5;box-shadow:0 2px 10px #0001}nav .wrap{display:flex;gap:8px;overflow:auto;padding:12px 20px}
+nav a{color:#24507f;text-decoration:none;padding:9px 13px;border-radius:8px;white-space:nowrap}nav a:hover{background:#eaf2ff}
+section{padding:30px 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:#fff;border-radius:14px;padding:20px;box-shadow:0 4px 18px #183b5d12}.card h3{margin-top:0}
+.btn{display:inline-block;background:#1677ff;color:#fff;text-decoration:none;padding:10px 14px;border-radius:8px;margin:5px 5px 0 0}.btn.secondary{background:#edf4ff;color:#1255a3}
+.tag{display:inline-block;font-size:12px;background:#e8f1ff;color:#1255a3;padding:5px 8px;border-radius:20px;margin-bottom:10px}
+.topic{display:flex;gap:10px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #eee}.topic:last-child{border:0}.topic input{margin-top:4px}
+.progress{height:12px;background:#e5eaf1;border-radius:20px;overflow:hidden}.bar{height:100%;width:0;background:#1677ff;transition:.25s}
+.note{background:#fff8df;border-left:4px solid #f0b400;padding:14px;border-radius:8px}
+footer{padding:25px 20px;text-align:center;color:#65738a}@media(max-width:600px){h1{font-size:30px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="tag" style="background:#ffffff22;color:white">CCNA 200-301</span>
+<h1>CCNA Learning Hub</h1>
+<p>A free learning roadmap with courses, labs, study plans, and progress tracking.</p>
+</div></header>
+
+<nav><div class="wrap">
+<a href="#courses">Courses</a><a href="#resources">Resources</a><a href="#plan">Study Plan</a><a href="#topics">Topics</a><a href="#exam">Exam</a>
+</div></nav>
+
+<main class="wrap">
+<section id="courses"><h2>🎓 Recommended Courses</h2><div class="grid">
+<div class="card"><span class="tag">Best Free Course</span><h3>Jeremy's IT Lab</h3>
+<p>A comprehensive CCNA 200-301 course with lectures, quizzes, labs, and practice resources.</p>
+<a class="btn" target="_blank" href="https://www.youtube.com/watch?v=H8W9oMNSuwo&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ">▶ Start YouTube Course</a>
+<a class="btn secondary" target="_blank" href="https://courses.jeremysitlab.com/p/ccna">Course Resources</a></div>
+<div class="card"><span class="tag">Official</span><h3>Cisco CCNA</h3>
+<p>Official Cisco information about the CCNA certification, training, exam topics, and certification path.</p>
+<a class="btn" target="_blank" href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html">Cisco CCNA</a>
+<a class="btn secondary" target="_blank" href="https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html">Exam Information</a></div>
+<div class="card"><span class="tag">Free</span><h3>Cisco Learning</h3>
+<p>Explore Cisco learning resources and training options for networking and CCNA preparation.</p>
+<a class="btn" target="_blank" href="https://www.netacad.com/courses/ccna">Cisco Networking Academy</a></div>
+</div></section>
+
+<section id="resources"><h2>🧰 Lab & Practice Tools</h2><div class="grid">
+<div class="card"><h3>Cisco Packet Tracer</h3><p>Create network topologies and practice Cisco IOS commands without physical hardware.</p>
+<a class="btn" target="_blank" href="https://www.netacad.com/cisco-packet-tracer">Get Packet Tracer</a></div>
+<div class="card"><h3>Cisco Modeling Labs</h3><p>Build more advanced virtual network labs using Cisco technologies.</p>
+<a class="btn" target="_blank" href="https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/ccna.html">Cisco Training</a></div>
+<div class="card"><h3>Practice Resources</h3><p>After each lesson, repeat the lab and review commands until you can configure the network without notes.</p>
+<a class="btn" target="_blank" href="https://courses.jeremysitlab.com/p/ccna">Jeremy's Resources</a></div>
+</div></section>
+
+<section id="plan"><h2>📅 10-Week Study Plan</h2><div class="card"><ol>
+<li>Week 1 — Network Fundamentals, OSI & TCP/IP</li>
+<li>Week 2 — IPv4, Subnetting & IPv6</li>
+<li>Week 3 — Ethernet, Switching, VLANs & Trunks</li>
+<li>Week 4 — STP, EtherChannel & Inter-VLAN Routing</li>
+<li>Week 5 — Routing, Static Routes & OSPF</li>
+<li>Week 6 — DHCP, DNS, NAT, NTP & SSH</li>
+<li>Week 7 — Security Fundamentals, ACLs & Port Security</li>
+<li>Week 8 — Wireless, Automation & Programmability</li>
+<li>Week 9 — Packet Tracer Labs & Practice Questions</li>
+<li>Week 10 — Mock Exams & Review Weak Areas</li>
+</ol><div class="note"><strong>Best method:</strong> Watch → Take notes → Build the lab → Troubleshoot → Quiz → Repeat.</div></div></section>
+
+<section id="topics"><h2>✅ CCNA Topic Checklist</h2><div class="card">
+<div class="progress"><div class="bar" id="bar"></div></div><p id="status">0% completed</p><div id="list"></div>
+</div></section>
+
+<section id="exam"><h2>📝 CCNA Exam</h2><div class="card">
+<h3>CCNA 200-301</h3>
+<p>The exam covers Network Fundamentals, Network Access, IP Connectivity, IP Services, Security Fundamentals, and Automation & Programmability.</p>
+<a class="btn" target="_blank" href="https://www.cisco.com/site/us/en/learn/training-certifications/exams/ccna.html">View Official Exam Information</a>
+</div></section>
+</main>
+<footer>CCNA Learning Hub • Educational resource hub. Always verify current exam details on Cisco's official website.</footer>
+
+<script>
+const topics=["Network Fundamentals","OSI Model & TCP/IP","Ethernet & MAC Address","IPv4 Addressing","Subnetting","IPv6","VLAN & Trunking","STP","EtherChannel","Inter-VLAN Routing","Static Routing","OSPF","DHCP / DNS / NAT","NTP","SSH","ACL","Port Security","Wireless","Automation & Programmability","Network Troubleshooting"];
+const saved=JSON.parse(localStorage.getItem("ccna-progress")||"{}"),list=document.getElementById("list");
+topics.forEach((t,i)=>{let row=document.createElement("label");row.className="topic";row.innerHTML=`<input type="checkbox" data-i="${i}" ${saved[i]?"checked":""}><span>${t}</span>`;list.appendChild(row)});
+function update(){let boxes=[...document.querySelectorAll("#list input")],done=boxes.filter(x=>x.checked).length,p=done/boxes.length*100;document.getElementById("bar").style.width=p+"%";document.getElementById("status").textContent=`${done}/${boxes.length} completed (${Math.round(p)}%)`;let s={};boxes.forEach(x=>s[x.dataset.i]=x.checked);localStorage.setItem("ccna-progress",JSON.stringify(s))}
+document.querySelectorAll("#list input").forEach(x=>x.addEventListener("change",update));update();
+</script>
+</body></html>
